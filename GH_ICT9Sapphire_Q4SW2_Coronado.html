@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>!! seatwork 2 !!</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+		<style>
+			* {
+				text-align: enter;
+			}
+			.center {
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.center th {
+				padding:40px;
+			}
+
+			body {
+			background-color:"#EFCFD4";
+			}
+		</style>
+	</head>
+	<body bgcolor="#EFCFD4">
+		<br>
+		<br>
+	<center><img src="https://i.pinimg.com/originals/54/0f/44/540f446bde0e667fb086b3870ae7ea39.png"width="90" heigh="80" allign="middle"></center>
+    <center><h5><i>Coronado, Angela Gwen</i></h5></center>
+    <center><h5><i>9 - Sapphire</i></h5></center>
+    <center><table border="3" cellpadding="12">
+	<center>
+		<h1>!! time converter !!</h1>
+		<h2>!! lets convert some oras !!</h2>
+		<table class="center">
+			<tbody>
+				<tr>
+				<th style="background-color:#EFCFD4;">
+					"hours"
+					<p>
+						<input type="text" id="hours">
+					</p>
+						<input type="button" class=" btn btn-danger" onclick="HrSec()" value="to seconds">
+						<input type="button" class=" btn btn-danger" onclick="HrMin()" value="to mins">
+						<input type="button" class=" btn btn-danger" onclick="HrDay()" value="to days">
+					</th>
+				</tr>
+			</tbody>
+			</table>
+			</center>
+			</table>
+			</center>
+			<script>
+				function HrSec(){
+					var x, y
+				   x = (document.getElementById('hours').value);
+				   y = 3600;
+				   alert(x * y);
+				}
+				function HrMin(){
+					var x, y
+					x = (document.getElementById('hours').value);
+					y = 60;
+					alert(x * y);
+				}
+				function HrDay(){
+					var x, y
+				   x = (document.getElementById('hours').value);
+				   y = 24;
+				   alert(x / y);
+				}
+			</script>
+
+</body>
+</html>
